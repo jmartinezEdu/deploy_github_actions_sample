@@ -44,6 +44,7 @@ jobs:
         # Nombre del entorno creado en Beanstalk
         environment_name: AplicacionJulioMartinez-env 
         # Nombre de la versión a crear en Beanstalk
-        version_label: v1.0
+        version_label: v1.
         # Archivo con el código de la aplicación (generado en el paso anterior)
+        use_existing_version_if_available: true
         deployment_package: deploy.zip
